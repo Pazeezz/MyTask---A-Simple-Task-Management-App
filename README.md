@@ -135,12 +135,12 @@ struct ContentView: View {
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MyTask.git
-   cd MyTask
+   git clone https://github.com/your-username/ToDoApp_Demo.git
+   cd ToDoApp_Demo
    ```
 2. Open the project in Xcode:
    ```bash
-   open MyTask.xcodeproj
+   open ToDoApp_Demo.xcodeproj
    ```
 3. Run the app on your iOS simulator or device.
 
