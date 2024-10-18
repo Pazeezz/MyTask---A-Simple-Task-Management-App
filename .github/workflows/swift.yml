@@ -11,10 +11,10 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-   - name: Build with Xcode
-  run: xcodebuild -project "ToDoApp Demo.xcodeproj" -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build || exit 1
+      - name: Build with Xcode
+        run: xcodebuild -project "ToDoApp Demo.xcodeproj" -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build || exit 1
 
-- name: Run tests
-  run: xcodebuild -project "ToDoApp Demo.xcodeproj" -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test || exit 1
+      - name: Run tests
+        run: xcodebuild -project "ToDoApp Demo.xcodeproj" -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test || exit 1
