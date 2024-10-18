@@ -15,17 +15,13 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    # Checkout the project
+    # Checkout the repository code
     - uses: actions/checkout@v4
-
-    # Set up Xcode version
-    - name: Set up Xcode
-      run: sudo xcode-select -s /Applications/Xcode_14.3.app # Example for Xcode version 14.3, change as needed
 
     # Build the project using xcodebuild
     - name: Build with Xcode
-      run: xcodebuild -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
+      run: xcodebuild -project MyProject.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
 
     # Run tests with xcodebuild
     - name: Run tests
-      run: xcodebuild -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test
+      run: xcodebuild -project MyProject.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test
