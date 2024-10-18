@@ -1,4 +1,3 @@
-
 # MyTask - A Simple Task Management App
 
 MyTask is a minimal and intuitive task management app built with SwiftUI. It allows users to add, edit, and delete tasks, while also enabling the marking of tasks as complete or incomplete. The app features a clean UI and seamless task management, perfect for everyday use.
@@ -16,31 +15,31 @@ MyTask is a minimal and intuitive task management app built with SwiftUI. It all
 
 When there are no tasks, the app displays a friendly "Nothing to show yet" message with an empty tray icon:
 
-![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 39 13](https://github.com/user-attachments/assets/9901fd2f-6f17-4b41-b8aa-165b0151f798)
+<img src="https://github.com/user-attachments/assets/9901fd2f-6f17-4b41-b8aa-165b0151f798" width="250" height="500">
 
 ### 2. Add New Task
 
 You can add a new task by tapping the plus icon. A form will appear allowing you to enter a task title and description:
 
-![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 47 48](https://github.com/user-attachments/assets/c59df9a9-4965-434e-bd6c-32d997f0f1cb)
+<img src="https://github.com/user-attachments/assets/c59df9a9-4965-434e-bd6c-32d997f0f1cb" width="250" height="500">
 
 ### 3. Task List View
 
 Once tasks are added, they appear in a list, showing their title and description. You can mark tasks as complete or delete them:
 
-![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 47 54](https://github.com/user-attachments/assets/15066092-4eab-4396-9d04-4468f8642b72)
+<img src="https://github.com/user-attachments/assets/15066092-4eab-4396-9d04-4468f8642b72" width="250" height="500">
 
 ### 4. Completed Tasks
 
 Tapping the circle icon marks the task as complete, and the circle turns into a green checkmark:
 
-![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 48 00](https://github.com/user-attachments/assets/cbde4934-6db8-4a0e-a617-f2fae38f8974)
+<img src="https://github.com/user-attachments/assets/cbde4934-6db8-4a0e-a617-f2fae38f8974" width="250" height="500">
 
 ### 5. Deleted Task States
 
-You can delete task by tapping the trash icon:
+You can delete tasks by tapping the trash icon:
 
-![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 48 15](https://github.com/user-attachments/assets/aad9bf95-839d-4d9b-87d0-ea4a2a1b8986)
+<img src="https://github.com/user-attachments/assets/aad9bf95-839d-4d9b-87d0-ea4a2a1b8986" width="250" height="500">
 
 ## Code Overview
 
