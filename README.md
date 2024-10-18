@@ -16,31 +16,31 @@ MyTask is a minimal and intuitive task management app built with SwiftUI. It all
 
 When there are no tasks, the app displays a friendly "Nothing to show yet" message with an empty tray icon:
 
-![Empty Task List](./mnt/data/Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21.39.13.png)
+![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 39 13](https://github.com/user-attachments/assets/9901fd2f-6f17-4b41-b8aa-165b0151f798)
 
 ### 2. Add New Task
 
 You can add a new task by tapping the plus icon. A form will appear allowing you to enter a task title and description:
 
-![Add New Task](./mnt/data/Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21.47.48.png)
+![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 47 48](https://github.com/user-attachments/assets/c59df9a9-4965-434e-bd6c-32d997f0f1cb)
 
 ### 3. Task List View
 
 Once tasks are added, they appear in a list, showing their title and description. You can mark tasks as complete or delete them:
 
-![Task List View](./mnt/data/Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21.47.54.png)
+![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 47 54](https://github.com/user-attachments/assets/15066092-4eab-4396-9d04-4468f8642b72)
 
 ### 4. Completed Tasks
 
 Tapping the circle icon marks the task as complete, and the circle turns into a green checkmark:
 
-![Completed Task](./mnt/data/Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21.48.00.png)
+![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 48 00](https://github.com/user-attachments/assets/cbde4934-6db8-4a0e-a617-f2fae38f8974)
 
-### 5. Mixed Task States
+### 5. Deleted Task States
 
-The app supports mixed task states where some tasks are complete while others are still pending:
+You can delete task by tapping the trash icon:
 
-![Mixed Task States](./mnt/data/Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21.48.15.png)
+![Simulator Screenshot - iPhone 16 Pro - 2024-10-18 at 21 48 15](https://github.com/user-attachments/assets/aad9bf95-839d-4d9b-87d0-ea4a2a1b8986)
 
 ## Code Overview
 
@@ -145,5 +145,3 @@ struct ContentView: View {
    ```
 3. Run the app on your iOS simulator or device.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
