@@ -1,3 +1,9 @@
+- name: Print working directory
+  run: pwd
+
+- name: List files
+  run: ls -l
+
 name: Xcode Build and Test
 
 on:
