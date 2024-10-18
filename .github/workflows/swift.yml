@@ -24,4 +24,4 @@ jobs:
 
     # Run tests with xcodebuild
     - name: Run tests
-      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test
+      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=latest' test
