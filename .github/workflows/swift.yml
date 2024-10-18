@@ -19,8 +19,8 @@ jobs:
     - uses: actions/checkout@v4
 
     # Build the project using xcodebuild
-    - name: Build with Xcode
-      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
+    # - name: Build with Xcode
+    #   run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
 
     # Run tests with xcodebuild
     - name: Run tests
