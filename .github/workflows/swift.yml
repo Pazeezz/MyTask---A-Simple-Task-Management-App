@@ -1,6 +1,3 @@
-# This workflow will build and test an Xcode project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
-
 name: Xcode Build and Test
 
 on:
@@ -11,17 +8,13 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
-    # Checkout the repository code
     - uses: actions/checkout@v4
 
-    # Build the project using xcodebuild
-    # - name: Build with Xcode
-    #   run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
+    - name: Build with Xcode
+      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build || exit 1
 
-    # Run tests with xcodebuild
     - name: Run tests
-      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=latest' test
+      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test || exit 1
