@@ -20,8 +20,8 @@ jobs:
 
     # Build the project using xcodebuild
     - name: Build with Xcode
-      run: xcodebuild -project MyProject.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
+      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build
 
     # Run tests with xcodebuild
     - name: Run tests
-      run: xcodebuild -project MyProject.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test
+      run: xcodebuild -project ToDoApp_Demo.xcodeproj -scheme YourAppScheme -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' test
